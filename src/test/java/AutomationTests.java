@@ -14,7 +14,7 @@ public class AutomationTests {
     private final WebDriver driver = new ChromeDriver();
 
     @Test
-    public void StudentRegistrationForm_NewStudent_IsSaved() {
+    public void studentRegistrationForm_NewStudent_IsSaved() {
         var form = new StudentRegistrationForm(driver);
         form.visit();
 
